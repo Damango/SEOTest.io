@@ -1556,7 +1556,7 @@ body {
     #jumboText {
         width: 550px;
         margin:0 auto;
-        background-color: pink;
+        background-color: blue;
 
     }
 
@@ -1606,7 +1606,8 @@ body {
     #newsContainer {
         height: 95%;
         position: absolute;
-        right: 250px;
+        left:50%;
+        transform:translateX(-50%);
     }
 
     #newsSubText {
