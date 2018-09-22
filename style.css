@@ -1552,7 +1552,7 @@ body {
     #jumboText {
         width: 550px;
         position: relative;
-        left: -345px;
+        left: 45px;
         
         background-color:orange;
 
