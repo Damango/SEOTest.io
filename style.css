@@ -9,7 +9,7 @@ body {
 }
 
 #jumbotron {
-    background: linear-gradient(to bottom, rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.9)), url("stars.jpg");
+    background: linear-gradient(to bottom, rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.9)), url("images/stars.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -186,21 +186,21 @@ body {
 }
 
 .nc1 .newsCardImg {
-    background: url("art.jpg");
+    background: url("images/art.jpg");
     background-position: center;
     background-size: cover;
     grid-area: nc1;
 }
 
 .nc2 .newsCardImg {
-    background: url("DNA.jpg");
+    background: url("images/DNA.jpg");
     background-position: center;
     background-size: cover;
     grid-area: nc2;
 }
 
 .nc3 .newsCardImg {
-    background: url("audi.jpg");
+    background: url("images/audi.jpg");
     background-position: center;
     background-size: cover;
     grid-area: nc3;
@@ -413,7 +413,7 @@ body {
 }
 
 .study1 .studyCardImg {
-    background: url("webcopy1.png");
+    background: url("images/webcopy1.png");
     background-position: center;
     background-size: cover;
 }
@@ -423,7 +423,7 @@ body {
 }
 
 .study2 .studyCardImg {
-    background: url("webcopy2.jpg");
+    background: url("images/webcopy2.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -433,7 +433,7 @@ body {
 }
 
 .study3 .studyCardImg {
-    background: url("webcopy3.png");
+    background: url("images/webcopy3.png");
     background-position: center;
     background-size: cover;
 }
@@ -1830,7 +1830,7 @@ body {
 }
 
 #contactUs textarea{
-    width: 300px;
+    width: 299px;
 
 }
 
