@@ -1557,6 +1557,8 @@ body {
 
     #subJumboText {
         width: 450px;
+        margin:0 auto;
+        background-color:orange;
     }
 
     #jumboTitle {
