@@ -1562,7 +1562,6 @@ body {
 
     #jumboTitle {
         font-size: 60px;
-        background-color:orange;
     }
 
     #achievements {
@@ -1683,6 +1682,7 @@ body {
 
 #jumboTitle{
     font-size: 35px;
+   
 }
 #subJumboText{
     font-size: 14px;
@@ -1829,7 +1829,10 @@ body {
 #contactUs input{
     width: 320px;
 }
+
 #contactUs textarea{
     width: 299px;
+
 }
+
 }
