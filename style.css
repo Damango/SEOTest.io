@@ -1541,10 +1541,12 @@ body {
 
 @media only screen and (max-width: 769px) {
 
+    body{
+    overflow-x:hidden !important;
+    
+    }
 
     #container{
-    position:relative;
-       right:250px;
     
     }
     
