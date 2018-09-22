@@ -1541,10 +1541,7 @@ body {
 
 @media only screen and (max-width: 769px) {
 
-    body{
-    overflow-x:hidden !important;
-    
-    }
+ 
 
     #container{
     
@@ -1566,7 +1563,7 @@ body {
     #subJumboText {
         width: 450px;
         margin:0 auto;
-        background-color:teal;
+        background-color:red;
     }
 
     #jumboTitle {
@@ -1603,12 +1600,13 @@ body {
 
     #news {
         height: 2400px;
-        position: relative;
-        right: 250px;
+        
     }
 
     #newsContainer {
         height: 95%;
+        position: relative;
+        right: 250px;
     }
 
     #newsSubText {
