@@ -1566,7 +1566,7 @@ body {
     #subJumboText {
         width: 450px;
         margin:0 auto;
-        background-color:orange;
+        background-color:teal;
     }
 
     #jumboTitle {
@@ -1603,6 +1603,8 @@ body {
 
     #news {
         height: 2400px;
+        position: relative;
+        right: 250px;
     }
 
     #newsContainer {
