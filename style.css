@@ -1636,11 +1636,13 @@ body {
 
     #studies {
         height: 2250px;
+        margin: 0 auto;
     }
 
 
     #studiesContainer {
         height: 90%;
+        margin:0 auto;
     }
 
     #plans{
