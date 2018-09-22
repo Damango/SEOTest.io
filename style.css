@@ -1542,6 +1542,11 @@ body {
 
 @media only screen and (max-width: 769px) {
 
+    
+    #container{
+    position:relative;
+        left:-145px;
+    }
 
     #jumbotron {
         height: 100vh;
