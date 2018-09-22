@@ -1556,7 +1556,7 @@ body {
     #jumboText {
         width: 550px;
         margin:0 auto;
-        background-color: blue;
+        background-color: orange;
 
     }
 
@@ -1600,7 +1600,7 @@ body {
 
     #news {
         height: 2400px;
-        
+        position:relative;
     }
 
     #newsContainer {
