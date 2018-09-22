@@ -1558,7 +1558,7 @@ body {
     }
 
     #subJumboText {
-        width: 450px;
+        width: 100%;
     }
 
     #jumboTitle {
