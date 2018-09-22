@@ -1553,7 +1553,7 @@ body {
         width: 550px;
         position: relative;
         left: 50%;
-        transform: translateX(-50%);
+        
         background-color:orange;
 
     }
