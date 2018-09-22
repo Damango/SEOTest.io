@@ -725,7 +725,7 @@ body {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1420px) {
     #container {
-       
+        overflow-x: hidden !important;
     }
 
     #newsContainer {
@@ -1286,6 +1286,7 @@ body {
         font-weight: bold;
         font-family: Poppins;
         margin-bottom: 15px;
+        
     }
 
 }
@@ -1541,13 +1542,7 @@ body {
 
 @media only screen and (max-width: 769px) {
 
- 
 
-    #container{
-    
-    }
-    
-    
     #jumbotron {
         height: 100vh;
     }
@@ -1555,15 +1550,14 @@ body {
 
     #jumboText {
         width: 550px;
-        margin:0 auto;
-        background-color: orange;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
 
     }
 
     #subJumboText {
         width: 450px;
-        margin:0 auto;
-        background-color:red;
     }
 
     #jumboTitle {
@@ -1600,14 +1594,10 @@ body {
 
     #news {
         height: 2400px;
-        position:relative;
     }
 
     #newsContainer {
         height: 95%;
-        position: absolute;
-        left:50%;
-        transform:translateX(-50%);
     }
 
     #newsSubText {
@@ -1645,13 +1635,11 @@ body {
 
     #studies {
         height: 2250px;
-        margin: 0 auto;
     }
 
 
     #studiesContainer {
         height: 90%;
-        margin:0 auto;
     }
 
     #plans{
