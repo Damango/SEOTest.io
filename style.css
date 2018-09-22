@@ -1551,6 +1551,7 @@ body {
     #jumboText {
         width: 550px;
         margin:0 auto;
+        background-color: green;
 
     }
 
