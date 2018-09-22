@@ -1550,11 +1550,11 @@ body {
 
 
     #jumboText {
-        width: 550px;
+        width: 70%;
         position: relative;
         left: 50%;
-        
-        background-color:blue;
+        text-align:center;
+        background-color:purple;
 
     }
 
