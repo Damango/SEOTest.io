@@ -137,7 +137,6 @@ body {
 
 .cardText {
     font-weight: bold;
-    ;
     font-size: 20px;
     color: rgba(83, 92, 104, 1.0);
 }
@@ -726,7 +725,7 @@ body {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1420px) {
     #container {
-        overflow-x: hidden !important;
+       
     }
 
     #newsContainer {
