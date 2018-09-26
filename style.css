@@ -19,8 +19,8 @@ body {
 #jumboText {
     font-family: Poppins;
     color: white;
-    position: relative;
-    top: 210px;
+    
+    margin:0 auto;
 }
 
 #jumboTitle {
