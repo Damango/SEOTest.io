@@ -731,7 +731,7 @@ body {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1420px) {
     #container {
-        overflow-x: hidden !important;
+        
     }
 
     #newsContainer {
