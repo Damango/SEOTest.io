@@ -891,6 +891,13 @@ body {
 }
 
 @media only screen and (max-width: 1150px) {
+    
+    
+    #container{
+     width: 100vw;   
+    }
+    
+    
     #cardWrap {
         position: relative;
         top: 100px;
@@ -1302,7 +1309,7 @@ body {
 
 
     #container {
-       
+       width: 100vw;
     }
 
 
@@ -1548,7 +1555,12 @@ body {
 
 @media only screen and (max-width: 769px) {
 
-
+    #container{
+    width:100vw;
+    
+    }
+    
+    
     #jumbotron {
         height: 100vh;
     }
@@ -1686,6 +1698,12 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    
+    #container{
+    width:100vw;
+    
+    }
+    
 
     #achievementTitle{
         font-size: 45px;
@@ -1766,6 +1784,12 @@ body {
 
 
 @media only screen and (max-width: 414px) {
+    
+    #container{
+    
+    width:100vw;
+    }
+    
 
 #jumboTitle{
     font-size: 35px;
