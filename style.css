@@ -21,8 +21,8 @@ body {
     color: white;
     position: relative;
     top: 210px;
-    left:-300px;
-    background-color:blue;
+    margin-left:-150px;
+    background-color:red;
 }
 
 #jumboTitle {
