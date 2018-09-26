@@ -16,7 +16,1906 @@ body {
     width: 100%;
 }
 
+#jumboText {
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    top: 210px;
+}
+
+#jumboTitle {
+    font-weight: bold;
+    font-size: 85px;
+    text-align: center;
+}
+
+#subJumboText {
+    text-align: center;
+    width: 900px;
+    font-size: 19px;
+    color: #dcdde1;
+}
+
+#jumboButton {
+    top: 50px;
+    border-style: none;
+    padding: 17px 45px;
+    font-family: Poppins;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgba(46, 204, 113, 1.0);
+    transition: 0.3s;
+}
+
+#jumboButton:hover {
+    background-color: white;
+    color: #2ecc71;
+    cursor: pointer;
+}
+
+#nav-bar {
+    height: 70px;
+    width: 100%;
+}
+
+#mainBody {
+    width: 100%;
+    height: 100%;
+}
+
+#achievements {
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    font-family: Poppins;
+}
+
+#achievementContainer {
+    width: 1100px;
+    height: 70%;
+}
+
+#achievementText {
+    text-align: center;
+    width: 1000px;
+    font-weight: 500;
+}
+
+#achievementTitle {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(47, 54, 64, 1.0);
+}
+
+#achieveText {
+    position: relative;
+    top: 15px;
+    color: rgba(83, 92, 104, 1.0);
+}
+
+#cardWrap {
+    position: relative;
+    top: 100px;
+    display: grid;
+    height: 250px;
+    grid-template-areas: 'c1 c2 c3 c4';
+    text-align: center;
+}
+
+.card {
+    grid-area: card;
+}
+
+.c1 {
+    grid-area: c1;
+}
+
+.c2 {
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+}
+
+.c4 {
+    grid-area: c4;
+    
+}
+
+
+.cardIcon {
+    font-size: 50px;
+    color: rgba(83, 92, 104, 1.0);
+}
+
+.cardNumber {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(46, 204, 113, 1.0);
+}
+
+.cardText {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(83, 92, 104, 1.0);
+}
+
+#news {
+    height: 950px;
+    background-color: #323232;
+}
+
+#newsContainer {
+    height: 85%;
+    width: 1300px;
+}
+
+#newsText {
+    position: relative;
+    top: 65px;
+}
+
+#newsCardWrap {
+    height: 650px;
+    width: 1300px;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    grid-gap: 50px;
+}
+
+.newsCard div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newsCard {
+    width: 400px;
+    font-family: Poppins;
+    color: white;
+}
+
+.newsCardImg {
+    background-color: teal;
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+}
+
+.nc1 .newsCardImg {
+    background: url("images/art.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: nc1;
+}
+
+.nc2 .newsCardImg {
+    background: url("images/DNA.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: nc2;
+}
+
+.nc3 .newsCardImg {
+    background: url("images/audi.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: nc3;
+}
+
+
+
+.newsCardImg:hover {
+    cursor: pointer;
+}
+
+.newsCardDate {
+    font-weight: bold;
+}
+
+.newsCardTitle {
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.newsCardTitle:hover {
+    cursor: pointer;
+    color: rgba(46, 204, 113, 1.0);
+}
+
+.cardLine {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.cardAuthor {
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cardAuthor:hover {
+    color: rgba(46, 204, 113, 1.0);
+    cursor: pointer;
+}
+
+#testimonials {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(46, 204, 113, 1.0);
+}
+
+#testContainer {
+    height: 85%;
+    width: 1200px;
+    padding: 1px;
+}
+
+#testContainer .sectionTitle {
+    margin-top: 75px;
+}
+
+.testimonialText {
+    text-align: center;
+    position: relative;
+    width: 1000px;
+    top: 30px;
+    font-family: Poppins;
+    color: white;
+}
+
+.testName {
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.testJob {
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 110px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#testBubbles {
+    position: relative;
+    font-family: Poppins;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    top: 145px;
+}
+
+.fa-circle {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#skills {
+    height: 450px;
+    width: 100%;
+    background-color: white;
+}
+
+#skillsContainer {
+    width: 1300px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-areas: 'skillText skillText skillBar skillBar''skillText skillText skillBar skillBar';
+}
+
+#skillsText {
+    font-family: Poppins;
+    grid-area: skillText;
+}
+
+#skillsText h1 {
+    color: rgba(47, 54, 64, 1.0);
+    font-size: 38px;
+}
+
+#skillsText p {
+    width: 650px;
+    line-height: 28px;
+    color: #8A8A8A;
+}
+
+#skillsBarWrap {
+    grid-area: skillBar;
+    width: 650px;
+    position: relative;
+    top: 85px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.skillBarHolder {
+    height: 35px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.skillBarTitle {
+    float: left;
+    color: #8A8A8A;
+}
+
+.skillBarNumber {
+    float: right;
+    color: #8A8A8A;
+}
+
+.skillBar {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 8px;
+    background-color: rgba(236, 240, 241, 1.0);
+}
+
+.barColor {
+    height: 100%;
+}
+
+#studies {
+    background-color: #FBFBFC;
+    width: 100%;
+    height: 850px;
+}
+
+#studiesContainer {
+    width: 1400px;
+    height: 70%;
+}
+
+#studyCardWrapper {
+    position: relative;
+    top: 65px;
+    display: grid;
+    grid-template-areas: 'study1 study2 study3';
+    grid-gap: 25px;
+    width: 100%;
+}
+
+.studyCard {
+    position: relative;
+    grid-area: studyCard;
+    width: 450px;
+    font-family: Poppins;
+}
+
+.studyCardImg {
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+.studyCardImg:hover {
+    cursor: pointer;
+}
+
+.study1 {
+    grid-area: study1;
+}
+
+.study1 .studyCardImg {
+    background: url("images/webcopy1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.study2 {
+    grid-area: study2;
+}
+
+.study2 .studyCardImg {
+    background: url("images/webcopy2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.study3 {
+    grid-area: study3;
+}
+
+.study3 .studyCardImg {
+    background: url("images/webcopy3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.studyCardTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(47, 54, 64, 1.0);
+}
+
+.studyCardText {
+    text-align: center;
+    color: #8A8A8A;
+}
+
+#plans {
+    height: 1000px;
+}
+
+#plansContainer {
+    width: 1400px;
+    height: 85%;
+}
+
+#plansChart {
+    display: grid;
+    height: 600px;
+    margin-top: 45px;
+    grid-template-areas: 'chartInfo personal professinal enterprise';
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.chartInfo {
+    grid-area: chartInfo;
+}
+
+.personal {
+    grid-area: personal;
+}
+
+.professinal {
+    grid-area: professinal;
+}
+
+.enterprise {
+    grid-area: enterprise;
+}
+
+.chartTopSection {
+    height: 15px;
+    width: 100%;
+}
+
+.chartSection {
+    padding-right: -45px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.chartSection p {
+    position: relative;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 205px;
+}
+
+.chartSection h4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.section1 {
+    color: #2f3640;
+}
+
+.section2 {
+    color: section1;
+}
+
+.buySection:hover {
+    cursor: pointer;
+}
+
+.fa-check {
+    color: #2ecc71;
+    font-size: 21px;
+}
+
+.fa-times {
+    color: #7f8c8d;
+    font-size: 21px;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #323232;
+    clear: both;
+}
+
+#footerContainer {
+    width: 1400px;
+    height: 80%;
+    color: white;
+    display: grid;
+    grid-template-areas: 'siteInfo newsFooter projectsFooter contactUs';
+}
+
+#siteInfo {
+    grid-area: siteInfo;
+    width: 250px;
+    font-family: Poppins;
+}
+
+#footerLogo {
+    font-weight: bold;
+}
+
+.footerInfo {
+    margin-top: 15px;
+}
+
+.footerIcon {
+    display: inline;
+}
+
+.iconInfo {
+    display: inline;
+    margin-left: 10px;
+}
+
+#newsFooter {
+    width: 250px;
+    font-family: Poppins;
+    position: relative;
+    grid-area: newsFooter;
+}
+
+#footerNewsTitle {
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.footerNewsLink {
+    font-weight: bold;
+}
+
+.footerNewsWrap {
+    margin-top: 15px;
+}
+
+.footerNewsDate {
+    font-size: 12px;
+}
+
+.newsBorder {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 1px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#projectsFooter {
+    grid-area: projectsFooter;
+    width: 300px;
+}
+
+#projectsFContainer {
+    display: grid;
+    grid-template-areas: 'project1 project2 project3''project4 project5 project6';
+    text-align: center;
+    height: 205px;
+    width: 100%;
+    grid-gap: 15px;
+}
+
+.project {
+    background-color: green;
+    width: 95px;
+    height: 75px;
+    position: relative;
+    font-size: 45px;
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+#contactUs {
+    grid-area: contactUs;
+    font-family: Poppins !important;
+    width: 250px;
+}
+
+#contactUs input {
+    margin-bottom: 45px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 255px;
+    font-family: Poppins;
+}
+
+#contactUs textarea {
+    padding-right: 100px;
+    min-width: 100px;
+    padding-bottom: 050px;
+    resize: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: Poppins;
+}
+
+#contactUs button {
+    display: block;
+    margin-top: 15px;
+    border-style: none;
+    background-color: #2ecc71;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+#contactUs button:hover {
+    background-color: white;
+    color: #2ecc71;
+    cursor: pointer;
+}
+
+#footerProjectsTitle {
+    font-family: Poppins;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#contactUsTitle {
+    font-weight: bold;
+    font-family: Poppins;
+    margin-bottom: 15px;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerX {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.centerY {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sectionTitle {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(47, 54, 64, 1.0);
+    font-family: Poppins;
+}
+
+.sectionSubText {
+    position: relative;
+    top: 15px;
+    color: rgba(83, 92, 104, 1.0);
+    text-align: center;
+    width: 1000px;
+    font-family: Poppins;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1420px) {
+    #container {
+        overflow-x: hidden !important;
+    }
+
+    #newsContainer {
+        height: 85%;
+        width: 1100px;
+    }
+
+    .newsCard {
+        width: 350px;
+        font-family: Poppins;
+        color: white;
+    }
+
+    .newsCardImg {
+        background-color: teal;
+        width: 350px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    #skillsContainer {
+        width: 1200px;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-areas: 'skillText skillText skillBar skillBar''skillText skillText skillBar skillBar';
+    }
+
+    #skillsBarWrap {
+        grid-area: skillBar;
+        width: 450px;
+        position: relative;
+        top: 85px;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    #studiesContainer {
+        width: 1200px;
+        height: 70%;
+    }
+
+    .studyCard {
+        position: relative;
+        width: 350px;
+        font-family: Poppins;
+    }
+
+    .studyCardImg {
+        background-position: center;
+        background-size: cover;
+        width: 350px;
+        height: 270px;
+        margin-bottom: 25px;
+    }
+
+    #plansContainer {
+        width: 1200px;
+        height: 85%;
+    }
+
+    #footerContainer {
+        width: 1100px;
+        height: 80%;
+        color: white;
+        display: grid;
+        grid-template-areas: 'siteInfo newsFooter projectsFooter contactUs';
+        grid-gap: 40px;
+    }
+
+    #siteInfo {
+        margin-left: -40px;
+    }
+
+    #contactUs input {
+        width: 245px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #newsContainer {
+        height: 85%;
+        width: 950px;
+    }
+
+    .newsCard {
+        width: 300px;
+        font-family: Poppins;
+        color: white;
+    }
+
+    .newsCardImg {
+        background-color: teal;
+        width: 300px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    #newsCardWrap {
+        height: 650px;
+        width: 1100px;
+        top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        grid-gap: 50px;
+    }
+
+    #skillsContainer {
+        width: 1000px;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-areas: 'skillText skillText skillBar skillBar''skillText skillText skillBar skillBar';
+    }
+
+    #skillsText p {
+        width: 500px;
+        line-height: 28px;
+        color: #8A8A8A;
+    }
+
+    #skillsBarWrap {
+        grid-area: skillBar;
+        width: 450px;
+        position: relative;
+        top: 85px;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    #footerContainer {
+        width: 850px;
+        height: 80%;
+        color: white;
+        display: grid;
+        grid-template-areas: 'siteInfo newsFooter projectsFooter contactUs';
+        grid-gap: 40px;
+    }
+
+    #siteInfo {
+        margin-left: -165px;
+    }
+
+    #contactUs input {
+        width: 225px;
+    }
+
+    #contactUs textarea {
+        width: 130px;
+    }
+
+    #plansContainer {
+        width: 950px;
+        height: 85%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #cardWrap {
+        position: relative;
+        top: 100px;
+        display: grid;
+        height: 250px;
+        grid-template-areas: 'c1 c2''c3 c4';
+        text-align: center;
+        width: 850px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cardIcon {
+        font-size: 110px;
+        color: rgba(83, 92, 104, 1.0);
+    }
+
+    .cardNumber {
+        font-size: 85px;
+        font-weight: bold;
+        color: rgba(46, 204, 113, 1.0);
+    }
+
+    .cardText {
+        font-weight: bold;
+        font-size: 35px;
+        color: rgba(83, 92, 104, 1.0);
+    }
+
+    #achievements {
+        height: 1200px;
+        width: 100%;
+        background-color: white;
+        font-family: Poppins;
+    }
+
+    #achievementContainer {
+        width: 1100px;
+        height: 85%;
+    }
+
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #achieveText {
+        width: 550px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #achievementTitle {
+        font-size: 55px;
+    }
+
+    #news {
+        height: 3000px;
+    }
+
+    #newsTitle {
+        font-size: 55px;
+    }
+
+    #newsSubText {
+        font-size: 25px;
+    }
+
+    #newsCardWrap {
+        height: 650px;
+        width: 800px;
+        top: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsCard {
+        font-family: Poppins;
+        color: white;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .newsCardDate {
+        font-size: 25px;
+    }
+
+    .newsCardTitle {
+        width: 500px;
+        font-size: 30px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .newsCardText {
+        font-size: 22px;
+        width: 550px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cardAuthor {
+        font-size: 25px;
+    }
+
+    .cardLine {
+        width: 700px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .newsCard div {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .newsCardImg {
+        background-color: teal;
+        width: 600px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #skills {
+        height: 800px;
+    }
+
+    #skillsContainer {
+        width: 1000px;
+        display: grid;
+        grid-template-areas: 'skillText skillText skillText skillText''skillBar skillBar skillBar skillBar';
+        top: 345px;
+    }
+
+    #skillsText p {
+        width: 90%;
+        line-height: 28px;
+        color: #8A8A8A;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    #skillsBarWrap {
+        grid-area: skillBar;
+        width: 90%;
+        position: relative;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 14px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #skillsText h1 {
+        color: rgba(47, 54, 64, 1.0);
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .skillBarHolder {
+        height: 40px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .skillBarTitle {
+        float: left;
+        color: #8A8A8A;
+        font-size: 18px;
+    }
+
+    .skillBarNumber {
+        float: right;
+        color: #8A8A8A;
+        font-size: 18px;
+    }
+
+    .skillBar {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 10px;
+        background-color: rgba(236, 240, 241, 1.0);
+    }
+
+    #studies {
+        background-color: #FBFBFC;
+        width: 100%;
+        height: 2400px;
+    }
+
+    #studiesContainer {
+        width: 1000px;
+        height: 80%;
+    }
+
+    #studyCardWrapper {
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .studyCard {
+        position: relative;
+        grid-area: studyCard;
+        width: 450px;
+        font-family: Poppins;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+
+    .studyCardImg {
+        background-position: center;
+        background-size: cover;
+        width: 600px;
+        height: 400px;
+        margin-bottom: 25px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #studiesSubText {
+        width: 750px;
+        font-size: 22px;
+    }
+
+    #footer {
+        position: relative;
+        width: 100%;
+        height: 650px;
+        background-color: #323232;
+        clear: both;
+    }
+
+    #footerContainer {
+        width: 1000px;
+        height: 80%;
+        color: white;
+        display: grid;
+        grid-template-areas: 'siteInfo newsFooter projectsFooter contactUs';
+    }
+
+    #siteInfo {
+        grid-area: siteInfo;
+        width: 250px;
+        font-family: Poppins;
+        margin: 0;
+    }
+
+    #footerLogo {
+        font-weight: bold;
+    }
+
+    .footerInfo {
+        margin-top: 15px;
+    }
+
+    .footerIcon {
+        display: inline;
+    }
+
+    .iconInfo {
+        display: inline;
+        margin-left: 10px;
+    }
+
+    #newsFooter {
+        width: 250px;
+        font-family: Poppins;
+        position: relative;
+        grid-area: newsFooter;
+        margin-left: -100px;
+    }
+
+    #footerNewsTitle {
+        font-family: Poppins;
+        font-weight: bold;
+    }
+
+    .footerNewsLink {
+        font-weight: bold;
+    }
+
+    .footerNewsWrap {
+        margin-top: 15px;
+    }
+
+    .footerNewsDate {
+        font-size: 12px;
+    }
+
+    .newsBorder {
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #projectsFooter {
+        grid-area: projectsFooter;
+        width: 100px;
+        margin-left: -120px;
+    }
+
+    #projectsFContainer {
+        display: grid;
+        grid-template-areas: 'project1 project2 project3''project4 project5 project6';
+        text-align: center;
+        height: 205px;
+        width: 100%;
+        grid-gap: 15px;
+
+    }
+
+    .project {
+        background-color: green;
+        width: 50px;
+        height: 30px;
+        position: relative;
+        font-size: 20px;
+    }
+
+    .project:hover {
+        cursor: pointer;
+    }
+
+    #contactUs {
+        grid-area: contactUs;
+        font-family: Poppins !important;
+        width: 50px;
+        margin-left: -70px;
+    }
+
+    #contactUs input {
+        margin-bottom: 45px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 150px;
+        font-family: Poppins;
+    }
+
+    #contactUs textarea {
+        padding-right: 25px;
+        min-width: 100px;
+        padding-bottom: 050px;
+        resize: none;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-family: Poppins;
+    }
+
+    #contactUs button {
+        display: block;
+        margin-top: 15px;
+        border-style: none;
+        background-color: #2ecc71;
+        color: white;
+        font-family: Poppins;
+        font-weight: bold;
+        padding: 10px 25px;
+        transition: 0.3s;
+    }
+
+    #contactUs button:hover {
+        background-color: white;
+        color: #2ecc71;
+        cursor: pointer;
+    }
+
+    #footerProjectsTitle {
+        font-family: Poppins;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    #contactUsTitle {
+        font-weight: bold;
+        font-family: Poppins;
+        margin-bottom: 15px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    #container {
+        overflow-x: hidden !important;
+    }
+
+
+
+    #cardWrap {
+        position: relative;
+        top: 100px;
+        display: grid;
+        height: 250px;
+        grid-template-areas: 'c1 c2''c3 c4';
+        text-align: center;
+        width: 650px;
+        left: 50%;
+        transform: translateX(-50%);
+        grid-gap: 50px;
+    }
+
+    .cardIcon {
+        font-size: 90px;
+        color: rgba(83, 92, 104, 1.0);
+    }
+
+    .cardNumber {
+        font-size: 65px;
+        font-weight: bold;
+        color: rgba(46, 204, 113, 1.0);
+    }
+
+    .cardText {
+        font-weight: bold;
+        font-size: 35px;
+        color: rgba(83, 92, 104, 1.0);
+    }
+
+    #news {
+        height: 3000px;
+    }
+
+    #newsTitle {
+        font-size: 55px;
+    }
+
+    #newsSubText {
+        font-size: 22px;
+        width: 750px;
+    }
+
+    #newsCardWrap {
+        height: 650px;
+        width: 800px;
+        top: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonialText {
+
+
+        width: 750px;
+
+    }
+
+    #plans {
+        height: 2950px;
+    }
+
+    #plansContainer {
+        width: 800px;
+        height: 90%;
+    }
+
+    #plans .sectionSubText {
+        width: 750px;
+        font-size: 22px;
+    }
+
+    #plansChart {
+        display: grid;
+
+        margin-top: 45px;
+        grid-template-areas: 'chartInfo''personal''professinal''enterprise';
+        font-family: Poppins;
+        font-weight: bold;
+    }
+
+    .chartColumn {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .chartInfo {
+        grid-area: chartInfo;
+        display: none;
+    }
+
+    .personal {
+        grid-area: personal;
+    }
+
+    .professinal {
+        grid-area: professinal;
+    }
+
+    .enterprise {
+        grid-area: enterprise;
+    }
+
+    .chartTopSection {
+        height: 25px;
+        width: 100%;
+    }
+
+    .chartSection {
+        padding-right: -45px;
+        padding: 25px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        font-size: 25px;
+    }
+
+    .chartSection i {
+        font-size: 35px;
+    }
+
+    .chartSection p {
+        position: relative;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 205px;
+    }
+
+    .chartSection h4 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #footer {
+        height: 1700px;
+    }
+
+    #footerContainer {
+        grid-template-areas:
+            'siteInfo'
+            'newsFooter'
+            'projectsFooter'
+            'contactUs'
+    }
+
+    #siteInfo {
+        width: 80%;
+        margin: 0 !important;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #footerLogo {
+        font-size: 25px;
+    }
+
+    #newsFooter {
+        width: 80%;
+        margin: 0 !important;
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #footerNewsTitle {
+        font-size: 25px;
+    }
+
+    #projectsFooter {
+        width: 80%;
+        margin: 0 !important;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        grid-gap: 50px;
+    }
+
+    #footerProjectsTitle {
+        font-size: 25px;
+    }
+
+    .project {
+        width: 250px;
+        height: 150px;
+
+    }
+
+    .project i {
+        font-size: 75px;
+    }
+
+
+    #contactUs {
+        width: 80%;
+        margin-left: 0 !important;
+        margin-top: 150px;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    #contactUsTitle {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    #contactUs textarea {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 72%;
+    }
+
+    #contactUs input {
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 75%;
+    }
+
+    #contactUs button {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 50px;
+        padding: 15px 100px;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+
+
+    #jumbotron {
+        height: 100vh;
+    }
+
+
+    #jumboText {
+        width: 550px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    #subJumboText {
+        width: 450px;
+    }
+
+    #jumboTitle {
+        font-size: 60px;
+    }
+
+    #achievements {
+        height: 1350px;
+    }
+
+    #cardWrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cardIcon {
+        font-size: 55px;
+    }
+
+    .cardNumber {
+        font-size: 35px;
+
+    }
+
+    .cardText {
+        font-size: 25px;
+    }
+
+
+    #news {
+        height: 2400px;
+    }
+
+    #newsContainer {
+        height: 95%;
+    }
+
+    #newsSubText {
+        font-size: 16px;
+        width: 550px;
+    }
+
+    .newsCardImg {
+        width: 450px;
+        height: 200px;
+    }
+
+    #newsCardDate {
+        font-size: 15px;
+    }
+
+    .newsCardTitle {
+        font-size: 22px;
+    }
+
+    .testimonialText {
+        width: 600px;
+    }
+
+    #skillsText {
+        width: 600px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #skillsBarWrap {
+        width: 600px;
+    }
+
+    #studies {
+        height: 2250px;
+    }
+
+
+    #studiesContainer {
+        height: 90%;
+    }
+
+    #plans{
+        height: 3100px;
+    }
+
+    .chartColumn{
+        width: 600px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+#footer{
+    height: 1700px;
+}
+#footerContainer{
+    height: 90%;
+}
+
+    #siteInfo{
+        width: 600px;
+    }
+
+    #newsFooter{
+        width: 600px;
+    }
+
+    #projectsFooter{
+        width: 600px;
+    }
+
+    .project{
+        width: 200px;
+        height: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #achievementTitle{
+        font-size: 45px;
+    }
+
+#achieveText{
+    width: 400px;
+}
+
+.testimonialText{
+    width: 400px;
+}
+
+#skillsBarWrap{
+    width: 500px;
+}
+
+#studies{
+    height: 1750px;
+}
+
+#studiesSubText{
+    width: 400px;
+}
+.studyCardImg{
+    width: 400px;
+    height: 200px;
+}
+
+
+#plans .sectionTitle{
+    font-size: 35px;
+    width: 450px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#plans .sectionSubText{
+    width: 450px;
+}
+
+.chartColumn{
+    width: 400px;
+}
+
+#siteInfo{
+    width: 400px;
+}
+
+#newsFooter{
+    width: 400px;
+}
+
+.project{
+    width: 120px;
+    height: 65px;
+}
+.project i{
+    font-size: 35px;
+}
+
+#projectsFooter{
+
+    width: 400px;
+}
+
+#contactUs{
+    width: 400px;
+    margin-top: -50px;
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 414px) {
+
 #jumboTitle{
-text-align:center;
+    font-size: 35px;
+   
+}
+#subJumboText{
+    font-size: 14px;
+    width: 320px;
+}
+
+#jumboButton{
+    padding: 10px 25px;
+}
+
+#achievementTitle{
+    font-size: 35px;
+}
+
+#achieveText{
+    width: 320px;
+    font-size: 16px;
+}
+
+#newsTitle{
+    font-size: 35px;
+
+}
+#newsSubText{
+    font-size: 16px;
+    width: 320px;
+}
+
+.newsCardImg{
+    width: 320px;
+}
+.newsCardDate{
+    font-size: 15px;
+}
+.newsCardTitle{
+    width: 320px;
+    font-size: 18px;
+}
+.newsCardText{
+    font-size: 16px;
+    width: 320px;
+}
+.cardLine{
+    width: 75%;
+}
+
+.testimonialText{
+    width: 320px;
+}
+
+#testBubbles i{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#skillsText h1{
+    font-size: 30px;
+}
+#skillsText p{
+    width: 320px;
+    font-size: 14px;
+}
+
+#skillsBarWrap{
+    width: 320px;
+}
+.skillBarTitle{
+    font-size: 14px;
+
+}
+
+.skillBarNumber{
+    font-size: 14px;
+}
+
+#studies{
+    height: 1600px;
+}
+
+#studies .sectionTitle{
+    font-size: 30px;
+}
+
+#studiesSubText{
+    width: 320px;
+    font-size: 15px;
+
+}
+
+.studyCardImg{
+    width: 320px;
+    height: 190px;
+}
+.studyCardText{
+    width: 320px;
+    font-size: 15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#plans .sectionTitle{
+    font-size: 30px;
+    width: 320px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#plans .sectionSubText{
+    font-size: 15px;
+    width: 320px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.chartColumn{
+    width: 320px;
+}
+
+#siteInfo{
+    width: 320px;
+}
+#newsFooter{
+    width: 320px;
+}
+
+#projectsFooter{
+    width: 320px;
+}
+
+.project{
+    width: 95px;
+    height: 65px;
+}
+.project i{
+    font-size: 30px;
+}
+#contactUs{
+    margin-top: -40px;
+}
+#contactUs input{
+    width: 320px;
+}
+
+#contactUs textarea{
+    width: 299px;
+
+}
 
 }
