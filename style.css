@@ -6,6 +6,7 @@ body {
 #container {
     width: 100%;
     height: 100%;
+    margin-left: -350px;
 }
 
 #jumbotron {
@@ -21,8 +22,8 @@ body {
     color: white;
     position: relative;
     top: 210px;
-    margin-left:-350px;
-    background-color:red;
+    
+    background-color:purple;
 }
 
 #jumboTitle {
